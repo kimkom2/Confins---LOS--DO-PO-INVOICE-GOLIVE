@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Link</description>
+      <initValue>'http://172.16.26.81/CONFINS_TRAIN/MainX.aspx'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>User Name</description>
+      <initValue>'83911114'</initValue>
+      <name>Creditadmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password</description>
+      <initValue>'Password123$'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Cari</description>
+      <initValue>'%'</initValue>
+      <name>Cari</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Login BOS</description>
+      <initValue>'46120912'</initValue>
+      <name>BOS</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

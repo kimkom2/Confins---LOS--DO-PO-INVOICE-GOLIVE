@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Copty dAta</name>
+   <tag></tag>
+   <elementGuidId>f5142a7f-ff7f-478e-8214-ca7566b77c4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ddlSourceCopyData</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='ddlSourceCopyData']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#ddlSourceCopyData</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>198a47be-5354-44dc-9a6b-698c0d4beb21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ddlSourceCopyData</value>
+      <webElementGuid>7ba6b05a-75b5-4d61-9bf7-fa9f6cb992f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>javascript:setTimeout('__doPostBack(\'ddlSourceCopyData\',\'\')', 0)</value>
+      <webElementGuid>e0e4296f-fe50-4cd9-ad74-6884564050cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ddlSourceCopyData</value>
+      <webElementGuid>bd232106-557f-48fd-9667-7ee14ef0c99c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+	Select One
+	Customer
+	Other
+	Family
+	Guarantor
+
+</value>
+      <webElementGuid>d7758a16-eeb7-4d1e-9b28-fd2e57ef3c0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ddlSourceCopyData&quot;)</value>
+      <webElementGuid>43cc3f9b-5903-49a1-9e3f-cc7947af8bf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Menu/Purchase Order/iframe_Welcome, Anita Gusti, KEDOYA, Credit Admin_mainPage</value>
+      <webElementGuid>a9e4b7f5-2fe3-49ad-8a96-390e60cc718d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='ddlSourceCopyData']</value>
+      <webElementGuid>85e7e462-470f-4c08-9cde-02853120a6af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dFicudiaInfo']/table/tbody/tr[2]/td[2]/select</value>
+      <webElementGuid>5196729f-c2a3-4a8f-8702-9a0a794ced07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Source Copy Data'])[1]/following::select[1]</value>
+      <webElementGuid>ed5ef10e-dc0b-4dcb-9e85-fd52bf887cab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Sesuai Identitas'])[1]/preceding::select[1]</value>
+      <webElementGuid>528b8153-98e6-4295-b6d2-017a780f677a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name is required.'])[1]/preceding::select[1]</value>
+      <webElementGuid>02b4491b-f443-412d-8d55-a960fbccc01e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>848a75a0-203f-4d13-8121-227000f94f13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'ddlSourceCopyData' and @id = 'ddlSourceCopyData' and (text() = '
+	Select One
+	Customer
+	Other
+	Family
+	Guarantor
+
+' or . = '
+	Select One
+	Customer
+	Other
+	Family
+	Guarantor
+
+')]</value>
+      <webElementGuid>0d427f3c-f9b0-48b6-9fb0-8bf7a151aff3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
