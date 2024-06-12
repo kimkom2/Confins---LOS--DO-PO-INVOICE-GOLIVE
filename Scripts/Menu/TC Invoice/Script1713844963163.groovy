@@ -66,10 +66,17 @@ for (int baris = 1; baris <= Datahohendy.getRowNumbers(); baris++)
 		WebUI.delay(1)
 		
 		// untuk convert dan get bisnis date yang ada pada sistem testing
-		String str = WebUI.getText(findTestObject('Object Repository/Menu/Inovice/Bisnis Date'))
-		String Tanggal = str.substring(8, 21) // This will extract "World" from the original string
+		String str = WebUI.getText(findTestObject('Object Repository/Menu/Delivery Order/Binis Date Confins_train'))
+		println(str)
+		String[] parts = str.split(" ")// ambil parameter start buat motong
+		String dayBeforeMonday = parts[0].trim()
+		int lengthOfString1 = dayBeforeMonday.length()
+		int lengthOfString2 = str.length() // ambil parameter start buat motong, total jumlah karakter pada bisnis date
+		String Tanggal = str.substring(lengthOfString1, lengthOfString2) // start ambil motong dari bisnis date, ambil tanggal ajah
 		println(Tanggal)
-		def inputDateString = Tanggal
+		String trimmedDateString = Tanggal.trim() // di trim, di hilangkan space depan nya
+		println(trimmedDateString)
+		def inputDateString = trimmedDateString
 		def inputFormat = new SimpleDateFormat("dd MMMM yyyy")
 		def outputFormat = new SimpleDateFormat("dd/MM/yyyy")
 		def date = inputFormat.parse(inputDateString)
@@ -95,6 +102,10 @@ for (int baris = 1; baris <= Datahohendy.getRowNumbers(); baris++)
 		
 					
 		WebUI.click(findTestObject('Object Repository/Menu/Inovice/a_Save'))
+		
+		WebUI.delay(3)
+		
+		WebUI.closeBrowser()
 				
 	}
 

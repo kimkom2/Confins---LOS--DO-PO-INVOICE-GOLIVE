@@ -36,3 +36,4 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Menu/Credit admin/List Menu/Delivery Order'))
 
+

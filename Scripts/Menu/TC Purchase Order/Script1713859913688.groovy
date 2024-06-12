@@ -61,6 +61,10 @@ for (int baris = 1; baris <= Datahohendy.getRowNumbers(); baris++)
 		
 		WebUI.delay(5)
 		
+		WebUI.delay(3)
+		
+		WebUI.closeBrowser()
+		
 	}
 
 }
